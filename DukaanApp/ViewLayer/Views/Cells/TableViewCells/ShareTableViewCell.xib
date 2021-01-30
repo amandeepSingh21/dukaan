@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="GalanoGrotesqueMedium.ttf">
+            <string>GalanoGrotesqueW00-Medium</string>
+        </array>
+        <array key="GalanoGrotesqueRegular.ttf">
+            <string>GalanoGrotesqueW00-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="ShareTableViewCell" customModule="DukaanApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="150"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="150"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bdk-tI-anj">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="73"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ves-B7-7OZ">
+                        <rect key="frame" x="16" y="12" width="288" height="122"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Share More to Earn More" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yGl-Ij-iQC">
+                                <rect key="frame" x="12" y="12" width="170.5" height="16.5"/>
+                                <fontDescription key="fontDescription" name="GalanoGrotesqueW00-Medium" family="GalanoGrotesqueW00-Medium" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your customers can visit your online store and place the orders from this link." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P8q-ED-MEo">
+                                <rect key="frame" x="12" y="32.5" width="264" height="30"/>
+                                <fontDescription key="fontDescription" name="GalanoGrotesqueW00-Regular" family="GalanoGrotesqueW00-Regular" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="mydukaan.io/mano" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5RT-kh-Uxf">
+                                <rect key="frame" x="12" y="89.5" width="133" height="16.5"/>
+                                <fontDescription key="fontDescription" name="GalanoGrotesqueW00-Medium" family="GalanoGrotesqueW00-Medium" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="M1Z-Pz-hJD">
+                                <rect key="frame" x="12" y="106" width="133" height="1"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="eNE-si-Lcq"/>
+                                </constraints>
+                            </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="share_icon" translatesAutoresizingMaskIntoConstraints="NO" id="ESv-iE-Ro7">
+                                <rect key="frame" x="187" y="82" width="89" height="28"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="5RT-kh-Uxf" secondAttribute="bottom" constant="16" id="CVQ-V5-Bax"/>
+                            <constraint firstItem="M1Z-Pz-hJD" firstAttribute="leading" secondItem="5RT-kh-Uxf" secondAttribute="leading" id="LYC-tG-6Sk"/>
+                            <constraint firstItem="M1Z-Pz-hJD" firstAttribute="width" secondItem="5RT-kh-Uxf" secondAttribute="width" id="Lf5-ov-Kys"/>
+                            <constraint firstAttribute="trailing" secondItem="ESv-iE-Ro7" secondAttribute="trailing" constant="12" id="O3K-Tg-OGd"/>
+                            <constraint firstItem="yGl-Ij-iQC" firstAttribute="top" secondItem="ves-B7-7OZ" secondAttribute="top" constant="12" id="OL0-rE-JSu"/>
+                            <constraint firstItem="5RT-kh-Uxf" firstAttribute="top" relation="greaterThanOrEqual" secondItem="P8q-ED-MEo" secondAttribute="bottom" constant="16" id="Qb1-fa-Hn1"/>
+                            <constraint firstItem="yGl-Ij-iQC" firstAttribute="leading" secondItem="ves-B7-7OZ" secondAttribute="leading" constant="12" id="TKz-PB-aXl"/>
+                            <constraint firstItem="P8q-ED-MEo" firstAttribute="top" secondItem="yGl-Ij-iQC" secondAttribute="bottom" constant="4" id="WIG-NG-7CF"/>
+                            <constraint firstItem="5RT-kh-Uxf" firstAttribute="leading" secondItem="P8q-ED-MEo" secondAttribute="leading" id="aTT-oF-FOg"/>
+                            <constraint firstItem="P8q-ED-MEo" firstAttribute="leading" secondItem="yGl-Ij-iQC" secondAttribute="leading" id="g4U-xE-FSB"/>
+                            <constraint firstAttribute="trailing" secondItem="P8q-ED-MEo" secondAttribute="trailing" constant="12" id="jbE-G4-mmG"/>
+                            <constraint firstItem="M1Z-Pz-hJD" firstAttribute="top" secondItem="5RT-kh-Uxf" secondAttribute="bottom" id="oPI-Lp-i4w"/>
+                            <constraint firstAttribute="bottom" secondItem="ESv-iE-Ro7" secondAttribute="bottom" constant="12" id="xAy-PG-9Xo"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="bdk-tI-anj" firstAttribute="height" secondItem="ves-B7-7OZ" secondAttribute="height" multiplier="0.6" id="5N0-Zb-zHf"/>
+                    <constraint firstItem="bdk-tI-anj" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="6Qw-ph-sCC"/>
+                    <constraint firstAttribute="trailing" secondItem="ves-B7-7OZ" secondAttribute="trailing" constant="16" id="MNc-6F-eNk"/>
+                    <constraint firstItem="ves-B7-7OZ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="12" id="QBc-Su-keb"/>
+                    <constraint firstItem="bdk-tI-anj" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="R1e-Vc-6Rt"/>
+                    <constraint firstItem="ves-B7-7OZ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="U4N-PC-zgZ"/>
+                    <constraint firstAttribute="trailing" secondItem="bdk-tI-anj" secondAttribute="trailing" id="jGL-Et-hS2"/>
+                    <constraint firstAttribute="bottom" secondItem="ves-B7-7OZ" secondAttribute="bottom" constant="16" id="mxX-J7-7HX"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="blueView" destination="bdk-tI-anj" id="ttk-MZ-K3n"/>
+                <outlet property="descLabel" destination="P8q-ED-MEo" id="hgS-ws-JcW"/>
+                <outlet property="linkBorderView" destination="M1Z-Pz-hJD" id="od0-IR-FzG"/>
+                <outlet property="linkLabel" destination="5RT-kh-Uxf" id="b3R-Ga-Ia2"/>
+                <outlet property="shareView" destination="ves-B7-7OZ" id="Tlz-3l-LJl"/>
+                <outlet property="titleLabel" destination="yGl-Ij-iQC" id="31b-5j-9M2"/>
+            </connections>
+            <point key="canvasLocation" x="124.6376811594203" y="143.63839285714286"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="share_icon" width="89" height="28"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
