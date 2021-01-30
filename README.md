@@ -4,7 +4,7 @@
 
 Assignment by [Amandeep](mailto:amandeep.saluja21@gmail.com).
 
-![](docs/screenshot.png|250x250)
+![](docs/screenshot.png | height=250px)
 
 
 ## 2. Requirements
